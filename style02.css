@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #EDBE64;
+    --cor1: #F7B668;
+    --cor2: #E09869;
+    --cor3: #F78C68;
+    --cor4: #ED7364;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor3);
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: var(--cor1);
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+article {
+    background-color: whitesmoke;
+    margin: 0px 20px 0px 20px;
+}
+
+h2 {
+    padding: 15px;
+    color: var(--cor4);
+}
+
+img {
+    
+}
