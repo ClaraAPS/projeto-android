@@ -25,9 +25,8 @@ h1 {
 
 body {
     background-color: var(--cor1);
-    text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    text-align: center;
 }
 
 article {
@@ -38,8 +37,24 @@ article {
 h2 {
     padding: 15px;
     color: var(--cor4);
+    text-align: left;
 }
 
-img {
-    
+main img {
+    border-radius: 40px;
+    text-align: center;
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    text-align: justify;
 }
